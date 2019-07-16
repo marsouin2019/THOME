@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i');
+
+
+
+body {
+  font: 400 1.6rem/1.4 'Lato', sans-serif;
+}
+h3{
+ color: black;
+}
+header {
+    background-color: burlywood;
+    border-style: solid;
+    border-width: medium;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10 px;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+main{
+    background-color: #fff;
+   
+
+}
+footer{
+    background-color: burlywood;
+    border-style: solid;
+    border-width: medium;
+   
+}
+.gold{
+    color: #D90115;
+}
+h3{
+    color:#333;
+}
+.menu{
+list-style-type: none;
+font-size: 20px;
+text-align: right;
+
+
+}
+
+.imgindex{
+    width: 100%;
+}
+.logo{
+    right: 190px;
+    height: 190px;
+}
+

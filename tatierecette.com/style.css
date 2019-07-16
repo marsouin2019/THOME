@@ -1,0 +1,117 @@
+
+
+ul{
+    color: rgb(62, 14, 90);
+    
+}
+body{
+    color: rgb(62, 14, 90);
+    background:#F8F8FF;
+    font-size: 18px;
+    width: 980px;
+    margin: auto auto;
+
+}
+h1{
+font-size: 40px;
+text-align:center;
+color:rgb(58, 24, 71);
+text-decoration: underline;
+text-transform: uppercase;
+padding-top: 50px;
+background: #3CB371;
+
+
+}
+h2{
+    font-size: 30px;
+    text-decoration:underline;
+     text-transform: capitalize;
+    color:rgb(62, 14, 90);
+
+
+   }
+p {
+    font-size: 18px;
+    color: #000;
+    padding-left:15px;
+    
+    
+}
+header{
+margin: auto auto;
+width: 980px;
+display: flex;
+height: 100px;
+margin: 80px;
+
+}
+.logo img{
+width: 120px;
+height:120px;
+padding-right: 12px;
+
+}
+.search {
+    width: 760px;
+    background-color:#F8F8FF;
+} 
+.compte img{
+    width: 70px;
+    height: 70px;
+    
+}
+
+
+nav > ul >li {
+position: relative;
+float: left;
+width: 160px;
+padding-left: 5px;
+padding-right: 5px;
+}
+nav > ul {
+list-style: none;
+width: 980px;
+}
+article { 
+    display: flex;
+    margin-bottom: 50px;
+    }
+article:last-child {
+    flex-direction: column;
+  
+}
+article >img{
+ width: 280px;
+ margin-bottom: 30px; 
+}
+
+
+article:last-child >ul{
+    position: absolute;
+    margin-left: 400px;
+}
+ footer{
+     width: 980px;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ footer > nav{
+     width: 490px;
+     background: blue;
+     height: 100px;
+
+    
+     
+
+ }
+ footer > address{
+     width: 490px;
+     background-color: red;
+     height: 100px;
+     
+    
+     
+ }
+     
