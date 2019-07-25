@@ -1,0 +1,13 @@
+.green{
+    background: green;
+  
+}
+.gray{
+    background: rgba(130, 219, 149, 0.514);
+}
+.pink{
+    background: rgba(248, 57, 146, 0.808);
+}
+.col-sm-6{
+    margin-left: 160px;
+}

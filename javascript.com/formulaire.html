@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/form.css">
+
+    <title>Formulaire</title>
+  </head>
+  <body>
+
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <nav class="pink">
+              <h6><strong>Hello there!<br> We're Dino Store</strong></h6>
+              <p>227 Cobblestone Road<br> 30000 Bedrock, Cobblestone County</p>
+              <p >http://dinostore.bed <br>hello@dinostore.bed<br> +1 780 546 2222</p>
+              <table>
+                <tr>
+                  <td>Due Date</td>
+                  <td>03 Avril 2013</td>
+                  
+                </tr>
+              </table>
+              </nav>
+              <table>
+                <tr class="green">
+                    <td>Currrency</td>
+                    <td>British Pound</td>
+                   
+                  </tr>
+                  <tr class="gray">
+                      <td>Invoice Number</td>
+                      <td>#INV-001</td>
+                     
+                    </tr>
+              </table>
+            </div>
+            <div class="col-sm-6">
+              <p class="">To client: <br><strong>Fred Flinststone</strong> <br>222 Rocky Way <br>30000Bedrock, Cobblestone Co.<br> fred@flinstone.bed</p>
+            </div>
+          </div>
+
+
+
+
+    <div class="container">
+        <form id="myForm" method="GET">
+            <table class="table" id="formTB">
+                <thead class="thead">
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">LineTotal</th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <br>
+
+                  <h1>Invoice</h1>
+                  <h6>03 Mars 2013</h6>
+
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Frozen Brontosaurus Ribs</td>
+                    <td><input type="text" name="q[]" value="" id="q1"></td>
+                    <td><input type="text" name="q[]" id="p1" value=""></td>
+                    
+                    <td class="total"></td>
+                  </tr>
+                  <tr>
+                      <th scope="row"></th>
+                      <td>Green Fern Salad</td>
+                      <td><input type="text" name="q[]" id="q2" value=""></td>
+                      <td><input type="text" name="q[]" id="p2" value=""></td>
+                      
+                      <td class="total"></td>
+                    </tr>
+                    <br>
+                          <tr>
+                            <td colspan="2"></td>
+                            <td>SUBTOTAL</td>
+                            <td></td>
+                            <td class="total"></td>
+                          </tr>
+                          <tr>
+                            <td colspan="2"></td>
+                            <td>TAX-A</td>
+                            <td>5.00%</td>
+                            <td class="total">41.40</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2"></td>
+                            <td>TOTAL</td>
+                            <td></td>
+                            <td class="total">869.40</td>
+                          </tr>
+
+                </tbody>
+              </table>
+              <button type="submit" class="btn btn-primary" id="submit">Valider facture</button>
+          </form>
+          <br>
+          <center>
+          <p>Thome, merci beaucoup. Nous apprécions vraiment votre travail. <br>S'il vous plaît envoyer le paiement dans un delai de 30 jours à partir du jour de réception.</p>
+          
+          <p>Paiements: Compte: 15663784 IBAN: US99481277269456 SWIFT:BOA324</p>
+        </center>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/form.js"></script>  
+</body>
+</html> 
