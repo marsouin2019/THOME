@@ -1,0 +1,47 @@
+.titre{
+    text-align: center;
+    background-color: #17a2b8;
+    color: black; 
+    
+}
+.col img{
+    float: right;
+}
+.col ul{
+    float: right;
+    margin-top: 25px;
+}
+
+
+img {
+    margin-top: 7px;
+    margin-right: 15px;
+}
+.col a{
+    color: black;
+   
+}
+.col li{
+   display: inline;
+   margin: 8px;
+}
+.col-logo{
+    margin-left: 20px;
+}
+.col-realisateur{
+    float: right;
+    margin-right: 40px;
+}
+body{
+    background-color: rgb(144, 192, 238);
+    
+}
+.col-5{
+    margin-bottom: 15px;
+}
+.btn{
+    color: black;
+}
+input{
+    margin-left: 40px;
+}
