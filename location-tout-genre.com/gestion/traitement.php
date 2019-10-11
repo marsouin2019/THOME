@@ -23,7 +23,7 @@
 
 //$salt = md5($salt);
 
-echo shal(md5($_POST["frmPass"]));
+//echo shal(md5($_POST["frmPass"]));
 
 
 

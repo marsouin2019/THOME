@@ -49,6 +49,10 @@
       <input type="password" class="form-control" id="frmPass" placeholder="Mot de passe (*)" required>
       <small>Doit contenir entre 8 et 20 caractères.</small>
     </div>
+    <div class="col">
+      <input type="password" class="form-control" id="frmPassb" placeholder="Confirmer mot de passe (*)" required>
+      <small>Doit contenir entre 8 et 20 caractères.</small>
+    </div>
     <button type="submit" class="btn btn-primary">Register</button>
   </div>
 </form>

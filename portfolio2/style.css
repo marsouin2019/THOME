@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(70, 159, 167);
+}
+
+.col-menu ul li{
+    list-style: none;
+    display: inline;
+    margin: 6px;
+}
+.d-flex ul li{
+    list-style: none;
+    display: inline;
+    margin: 6px;
+}
+.col-bref{
+    float: left;
+    margin-top: 45px;
+    font-size: 20px;
+    
+}
+
+.col-background{
+    float: right;
+    
+}
+ul li a{
+    color: black;
+}
+body{
+    margin-top: 10px;
+}
+.d-flex{
+    margin: 20px;
+    margin-top: 45px;
+}
+.img-thumbnail-pro{
+    width: 360px;
+}
+
+
+.col-menu > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1){
+    background-color: rgb(192, 40, 91) ;
+    padding: 8px;
+    border-radius: 15px;
+}
+.col-menu > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1){
+background-color: bisque;
+padding: 8px;
+    border-radius: 15px;
+}
+.col-menu > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1){
+    background-color: bisque;
+    padding: 8px;
+    border-radius: 15px;
+}
+.col-menu > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1){
+    background-color: bisque;
+    padding: 8px;
+    border-radius: 15px;
+}
+.col-menu > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1){
+    background-color: bisque;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.col-bref ul li{
+    display: inline;
+    list-style: none;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 15px;
+}
+.col-bref ul{
+    margin-top: 30px;
+    padding: 25px;
+    font-size:20px;
+}
+.d-flex ul li a{
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+
+
