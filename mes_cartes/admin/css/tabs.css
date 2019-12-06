@@ -1,0 +1,84 @@
+@media all and (min-width: 1200px)
+
+/*page mes cartes de visites , ipad pro*/
+{
+.titlefidel{
+    
+    margin-left: 75px;
+}
+.btn-outline-success1{
+    margin-bottom: 2%;
+    margin-left: 89%
+    
+}
+.logo{
+    margin-left: -25%;
+}
+/*page mes cartes de fidelites pour ipad*/
+.logo{
+    margin-left: 55%
+}
+.titlefidel{
+    margin-left: 35%;
+}
+.btn-outline-success1{
+    margin-left: 85%;
+}
+/*page ajout carte*/
+.btn-light1{
+    margin-left: 25%;
+}
+.btn-light11{
+    margin-left: 30%;
+}
+.btn-secondaryajout
+{
+margin-right: 10%;
+}
+.btn-secondaryajout1{
+    margin-left: 5%;
+}
+.btn-primary1{
+    margin-left: 10%;
+}
+.btn-primary2{
+    margin-left: 45%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) 
+
+     Styles pour cette Media Queries 
+    {
+        .titlefidel{
+          
+            margin-left: 75px;
+        }
+}
+*/

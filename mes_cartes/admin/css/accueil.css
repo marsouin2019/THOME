@@ -1,0 +1,143 @@
+body{
+    background-image:linear-gradient( black, #F9DD8F ) ;
+    background-repeat: space;
+    background-size: 6000px;
+    
+  }
+  .column {
+      float: left;
+      width: 33.33%;
+    }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+  .row{
+      font-size: 40px;
+    
+  }
+  .btn-danger{
+    height: 200px ;
+    width: 200px;
+   margin-bottom: 40px;
+   margin-left: 150px;
+   
+  }
+  .btn-success{
+    height: 200px ;
+    width: 200px;
+    margin-left: 150px;
+  }
+  .btn-warning{
+    height: 200px ;
+    width: 200px;
+    margin-left: 150px;
+    color: white;
+  }
+  .btn-primary{
+    height: 200px ;
+    width: 200px;
+    margin-left: 150px;
+  }
+  .container-fluid{
+    margin-bottom: 70px;
+  }
+  .btn-secondary{
+    width: 175px;
+    height: 75px;
+    padding-right:125px;
+    padding-left:75px ;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .logo{
+    margin-left: 300px;
+  
+    
+  }
+  .dropdown-menu img{
+  width: 100px;
+  margin-left:30px;
+  }
+  
+  /*page carte de fidélité
+  *tableau*/
+  
+  table {
+    background: white;
+  }
+  .titrefidel{
+    color: white;
+    display: block;
+    margin-left: 450px;
+    height: 50px;
+  
+  }
+  .btn-outline-success1{
+    display: block;
+    background: green;
+    color: white;
+    margin-bottom:15px;
+    margin-left: 1010px;
+  }
+  /*page ajout carte*/
+  h2{
+    text-align: center;
+    color: white;
+  }
+  .btn-light1{
+    color: white;
+    background: blue;
+    margin-left: 220px;
+  }
+  .btn-light11{
+    background:white;
+    margin-left: 150px;
+  }
+  .btn-primary1{
+    color: white;
+    background: blue;
+    margin-left: 220px;
+  }
+  .btn-primary2{
+    color: white;
+    background: blue;
+    margin-left: 340px;
+  }
+  /*menu dropdown selection ou categorie*/
+  .btn-secondaryajout{
+    color: white;
+    background: blue;
+    margin-left: 30px;
+  }
+  .btn-secondaryajout1{
+    color: white;
+    background: blue;
+    margin-right: 80px;
+  }
+  /* image recto verso*/
+  .rounded{
+    width: 200px;
+  }
+  
+  

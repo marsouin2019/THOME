@@ -1,0 +1,48 @@
+
+body{
+    background-image:linear-gradient( black, #F9DD8F ) ;
+    background-repeat:no-repeat;
+    background-size: 6000px;
+   
+    }
+
+
+.logo{
+    margin-left: 750px;
+}
+
+H1{
+    margin-left: 650px;
+    color: #F9DD8F;
+    margin-top: 100px;
+}
+
+.bouton{
+    margin-left: 850px;
+    margin-top: 250px;
+}
+
+.form{
+    margin-top: 100px;
+}
+
+.champ{
+    margin-left: 400px;
+}
+
+.champP{
+    margin-left: 250px;
+}
+
+
+.email{
+    margin-left: 700px;
+    margin-top: 55px;
+   
+}
+
+.inscription{
+    margin-bottom: 100px;
+}
+
+

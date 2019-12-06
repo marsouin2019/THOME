@@ -1,13 +1,43 @@
 <?php
+session_start();
 include("class/connect.php");
 include("class/cl_traitement.php");
 
 $addPersonne = new Personne($mysqli); //pour ajouter une personne
 
 //rappel méthode addPersonne
-$addPersonne->add_personne($_POST); //objet on instancie la class définie
 
-/*
+//les conditions if/switch case 
+
+//$_POST["frmForm"] valeur frmregister ou frmlogin
+
+switch($_POST["frmForm"])
+{
+    case "frmRegister";
+    //appel methode add personne
+    $addPersonne->add_personne($_POST);
+    break;
+    case "frmLogin";
+    //appel methode login
+    $addPersonne->login($_POST);
+    break;
+    case "frmPass";
+    //
+    //
+   $addPersonne->resetPassword($_POST["frmEmail"]);
+break;
+default ;
+        //
+break;
+
+}
+
+
+
+
+
+
+
 //traitement du formulaire register
 //print_r($_POST);
 
@@ -25,7 +55,7 @@ foreach($_POST as $key => $value)
     }
 }
 
-//print_r( password_hash($_POST["frmPass"],PASSWORD_DEFAULT));
+print_r( password_hash($_POST["frmPass"],PASSWORD_DEFAULT));
 
 
 //$salt = "MARsouins";
@@ -36,5 +66,6 @@ foreach($_POST as $key => $value)
 
 //echo $key correspond à $value
 
+
+
 ?>
-*/

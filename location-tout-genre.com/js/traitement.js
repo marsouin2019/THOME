@@ -113,8 +113,8 @@ $("input[type ='password']").blur(function() {
 
 
 
-/*
 
+/*
 $().ready(function() {
   
   // validate signup form on keyup and submit

@@ -1,0 +1,124 @@
+@media screen and (max-width: 1280px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    .btn-danger{
+        height: 130px ;
+        width: 130px;
+       margin-bottom: 40px;
+       margin-left: 15px;
+       
+      }
+      .btn-success{
+        height: 130px ;
+        width: 130px;
+        margin-left: 200px;
+        margin-top: -278px;
+      }
+      .btn-warning{
+        height: 130px ;
+        width: 130px;
+       margin-bottom: 40px;
+       margin-left: 15px;
+       color: white;
+      }
+      .btn-primary{
+        height: 130px ;
+        width: 130px;
+        margin-left: 200px;
+        margin-top: -278px;
+      }
+      .container-fluid{
+        margin-bottom: 80px;
+      }
+      /*contenair fluide pagefavoris*/
+      .container-fluidfav{
+        margin-bottom: 25px;
+      }
+      .btn-secondary{
+        width: 150px;
+        height: 40px;
+        padding-right:120px;
+        padding-left:19px ;
+      }
+      .column {
+        float: left;
+        padding: 10px;
+        height: 100px; /* Should be removed. Only for demonstration */
+      }
+      
+      .left {
+        width: 25%;
+      }
+      
+      .right {
+        width: 75%;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .logo img{  
+        margin-left: 10px;
+       
+        
+      }
+      .dropdown-menu img{
+      width: 100px;
+      height: 50px;
+      margin-left:50px;
+      }
+    .logo img{
+        border-style: none;
+        width: 150px;
+        height: 100px;
+        margin-left: -215px;
+    }
+    .titrefidel{
+      color: white;
+      display: block;
+      margin-left: 75px;
+      height: 50px;
+    
+    }
+    .titrefavoris{
+      color: white;
+      display: block;
+      margin-left: 125px;
+      margin-bottom: 50px;
+    
+    }
+    .btn-outline-success1{
+      display: block;
+      background: green;
+      color: white;
+      margin-bottom:15px;
+      margin-left: 250px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) 
+
+    Styles pour cette Media Queries
+    {
+        .titlefidel{
+          
+            margin-left: 40%;
+        }
+}
+ */

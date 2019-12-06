@@ -1,0 +1,20 @@
+body{
+    background-image:linear-gradient( black, #F9DD8F ) ;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+  
+
+}
+.dropdown{
+    margin-top: 50px;
+
+}
+.dropdown button{
+    padding-right:45px;
+    padding-left: 45px;
+}
+
